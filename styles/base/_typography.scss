@@ -1,0 +1,23 @@
+.heading-primary {
+  color: $text-color;
+  margin-top: 7rem;
+  margin-bottom: 4rem;
+
+  &--main {
+    display: block;
+    font-weight: 400%;
+    font-size: 6rem;
+    letter-spacing: 2rem;
+    animation: moveInLeft;
+    animation-duration: 1s;
+    backface-visibility: hidden;
+    animation-timing-function: ease-out;
+  }
+  &--sub {
+    display: block;
+    font-size: 3rem;
+    font-weight: 700%;
+    letter-spacing: 2.7rem;
+    animation: moveInRight 1s ease-out;
+  }
+}
