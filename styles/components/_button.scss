@@ -70,23 +70,23 @@
 .btn-text {
   &:link,
   &:visited {
-    color: rgb(15, 8, 8);
+    color: rgba(145, 216, 159, 0.982);
     display: inline-block;
     text-decoration: none;
-    border-bottom: 1px solid rgb(15, 8, 8);
+    border-bottom: 1.5px dotted rgb(247, 247, 247);
     padding: 3px;
     transition: all 0.2s;
   }
 
   &:hover {
-    background-color: rgb(15, 8, 8);
+    background-color: rgba(21, 227, 62, 0.29);
     color: white;
-    box-shadow: 0 1rem 2rem rgba(grey, 0.15);
+    box-shadow: 0 1rem 2rem rgba(rgb(255, 255, 255), 0.15);
     transform: translateY(-2px);
   }
 
   &:active {
-    box-shadow: 0 0.5rem 1rem rgba(grey, 0.15);
+    box-shadow: 0 0.5rem 1rem rgba(rgb(255, 255, 255), 0.15);
     transform: translateY(0);
   }
 }
