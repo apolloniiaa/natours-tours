@@ -40,11 +40,11 @@
   }
 
   &--green {
-    background-color: rgb(15, 8, 8);
-    color: white;
+    background-color: rgba(255, 255, 255, 0.927);
+    color: rgb(4, 165, 114);
 
     &::after {
-      background-color: rgb(15, 8, 8);
+      background-color: rgb(255, 255, 255);
     }
   }
 
