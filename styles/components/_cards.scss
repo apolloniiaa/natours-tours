@@ -68,7 +68,7 @@
           $color-secondary-light,
           $color-secondary-dark
         ),
-        url('./img/nat-5.jpg');
+        url('../img/nat-5.jpg');
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
       clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     }
@@ -79,7 +79,7 @@
           rgb(33, 2, 2),
           rgb(176, 140, 140)
         ),
-        url('./img/nat-6.jpg');
+        url('../img/nat-6.jpg');
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
       clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     }
@@ -90,7 +90,7 @@
           rgb(67, 200, 249),
           rgb(12, 12, 67)
         ),
-        url('./img/nat-7.jpg');
+        url('../img/nat-7.jpg');
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
       clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
     }
@@ -154,7 +154,6 @@
     }
   }
 
-  //FIRST SIDE STÍLING
   &_cta {
     position: absolute;
     top: 50%;

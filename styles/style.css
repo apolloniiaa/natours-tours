@@ -387,22 +387,22 @@ body {
 }
 
 .card_picture--1 {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#b18f06), to(#a84021)), url("./img/nat-5.jpg");
-  background-image: linear-gradient(to right bottom, #b18f06, #a84021), url("./img/nat-5.jpg");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#b18f06), to(#a84021)), url("../img/nat-5.jpg");
+  background-image: linear-gradient(to right bottom, #b18f06, #a84021), url("../img/nat-5.jpg");
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 
 .card_picture--2 {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#210202), to(#b08c8c)), url("./img/nat-6.jpg");
-  background-image: linear-gradient(to right bottom, #210202, #b08c8c), url("./img/nat-6.jpg");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#210202), to(#b08c8c)), url("../img/nat-6.jpg");
+  background-image: linear-gradient(to right bottom, #210202, #b08c8c), url("../img/nat-6.jpg");
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
 
 .card_picture--3 {
-  background-image: -webkit-gradient(linear, left top, right bottom, from(#43c8f9), to(#0c0c43)), url("./img/nat-7.jpg");
-  background-image: linear-gradient(to right bottom, #43c8f9, #0c0c43), url("./img/nat-7.jpg");
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#43c8f9), to(#0c0c43)), url("../img/nat-7.jpg");
+  background-image: linear-gradient(to right bottom, #43c8f9, #0c0c43), url("../img/nat-7.jpg");
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
 }
