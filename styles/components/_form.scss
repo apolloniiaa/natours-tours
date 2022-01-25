@@ -43,4 +43,51 @@
     visibility: hidden;
     transform: translateY(-4rem);
   }
+
+  &_radio-group {
+    width: 50%;
+    display: inline-block;
+    margin: 4rem 0 2rem 0;
+  }
+  &_radio-input {
+    display: none;
+  }
+
+  &_radio-label {
+    font-size: 1.6rem;
+    cursor: pointer;
+    position: relative;
+    padding-left: 4.5rem;
+  }
+  &_radio-button {
+    height: 2rem;
+    width: 2rem;
+    border: 5px solid $primary-color-dark;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    &::after {
+      content: '';
+      display: block;
+      border-radius: 50%;
+      height: 1.5rem;
+      width: 1.5rem;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: $primary-color-dark;
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+  }
+  .form_group {
+    display: flex;
+  }
+  &_radio-input:checked ~ &_radio-label &_radio-button::after {
+    opacity: 1;
+  }
 }

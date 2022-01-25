@@ -1,3 +1,8 @@
+html,
+body {
+  overflow-x: hidden;
+}
+
 .navigation {
   &_checkbox {
     display: none;
@@ -13,6 +18,11 @@
     z-index: 20000;
     box-shadow: 0 1rem 3rem black;
     text-align: center;
+    cursor: pointer;
+    @include respond(tab-port) {
+      top: 3rem;
+      right: 3rem;
+    }
   }
   &_background {
     height: 6rem;
@@ -21,9 +31,20 @@
     position: fixed;
     top: 6.5rem;
     right: 6.5rem;
-    background: rgba(167, 248, 167, 0.03);
+    background: rgb(4, 63, 48);
     z-index: 1000;
     transition: transform 0.8s;
+
+    @include respond(tab-port) {
+      top: 3.5rem;
+      right: 3.5rem;
+      background-color: transparent;
+    }
+
+    @include respond(phone) {
+      top: 3rem;
+      right: 3rem;
+    }
   }
   &_nav {
     height: 100vh;

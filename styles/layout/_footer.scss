@@ -8,9 +8,12 @@
   align-items: center;
   justify-content: center;
 
+  @include respond(tab-port) {
+    padding: 3rem 0;
+  }
+
   &_logo-box {
     text-align: center;
-    margin-bottom: 8rem;
   }
 
   &_logo {
@@ -22,6 +25,10 @@
     border-top: 1px solid $color-for-underline;
     padding: 2rem;
     display: inline-block;
+    @include respond(tab-port) {
+      width: 100%;
+      text-align: center;
+    }
   }
   &_list {
     list-style: none;
