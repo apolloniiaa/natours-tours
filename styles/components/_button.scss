@@ -32,20 +32,23 @@
   }
 
   &--white {
-    background-color: white;
-    color: gray;
+    background-color: rgba(255, 255, 255, 0.034);
+    color: rgb(0, 24, 18);
 
     &::after {
-      background-color: white;
+      background-color: rgba(255, 255, 255, 0.062);
     }
   }
 
   &--green {
-    background-color: rgba(255, 255, 255, 0.927);
+    background-color: rgba(255, 255, 255, 0.171);
     color: rgb(4, 165, 114);
 
     &::after {
       background-color: rgb(255, 255, 255);
+    }
+    @include respond(tab-port) {
+      margin-top: 2rem;
     }
   }
 

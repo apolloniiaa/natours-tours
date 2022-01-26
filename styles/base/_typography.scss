@@ -2,6 +2,13 @@
   color: white;
   margin-top: 7rem;
   margin-bottom: 4rem;
+  @include respond(phone) {
+    margin-top: 16rem;
+    margin-bottom: 2rem;
+    h1 {
+      background-color: turquoise;
+    }
+  }
 
   &--main {
     display: block;
@@ -14,7 +21,8 @@
     animation-timing-function: ease-out;
 
     @include respond(phone) {
-      letter-spacing: 1rem;
+      letter-spacing: 2rem;
+      font-size: 3rem;
     }
   }
   &--sub {
@@ -24,7 +32,8 @@
     letter-spacing: 2.7rem;
     animation: moveInRight 1s ease-out;
     @include respond(phone) {
-      letter-spacing: 0.5rem;
+      letter-spacing: 1.5px;
+      font-size: 0.8rem;
     }
   }
 }
@@ -53,6 +62,9 @@
   &:hover {
     transform: skewY(2deg) skewX(15deg) scale(1.1);
     text-shadow: 0.5rem 1rem 2rem rgba(99, 99, 99, 0.756);
+  }
+  @include respond(tab-port) {
+    margin-bottom: 2rem;
   }
 }
 .heading-tertiary {
