@@ -25,21 +25,21 @@
       &-1 {
         background-image: linear-gradient(
           to right bottom,
-          $color-secondary-light,
-          $color-secondary-dark
+          rgba(48, 2, 2, 0.938),
+          rgb(22, 1, 1)
         );
       }
       &-2 {
         background-image: linear-gradient(
           to right bottom,
-          rgb(33, 2, 2),
-          rgb(176, 140, 140)
+          rgba(15, 14, 14, 0.938),
+          rgb(17, 5, 5)
         );
       }
       &-3 {
         background-image: linear-gradient(
           to right bottom,
-          rgb(67, 200, 249),
+          rgb(2, 7, 36),
           rgb(12, 12, 67)
         );
       }
@@ -65,8 +65,8 @@
     &--1 {
       background-image: linear-gradient(
           to right bottom,
-          $color-secondary-light,
-          $color-secondary-dark
+          rgb(48, 2, 2),
+          rgb(22, 1, 1)
         ),
         url('../img/nat-5.jpg');
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
@@ -76,8 +76,8 @@
     &--2 {
       background-image: linear-gradient(
           to right bottom,
-          rgb(33, 2, 2),
-          rgb(176, 140, 140)
+          rgb(15, 14, 14),
+          rgb(17, 5, 5)
         ),
         url('../img/nat-6.jpg');
       -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
@@ -87,7 +87,7 @@
     &--3 {
       background-image: linear-gradient(
           to right bottom,
-          rgb(67, 200, 249),
+          rgb(2, 7, 36),
           rgb(12, 12, 67)
         ),
         url('../img/nat-7.jpg');
@@ -122,15 +122,15 @@
     &--2 {
       background-image: linear-gradient(
         to right bottom,
-        rgba(33, 2, 2, 0.372),
+        rgba(33, 2, 2, 0.849),
         rgba(176, 140, 140, 0.53)
       );
     }
     &--3 {
       background-image: linear-gradient(
         to right bottom,
-        rgba(67, 200, 249, 0.447),
-        rgba(12, 12, 67, 0.406)
+        rgba(157, 219, 255, 0.63),
+        rgb(2, 9, 41)
       );
     }
   }
@@ -170,6 +170,7 @@
   &_price-only {
     font-size: $default-font-size;
     text-transform: uppercase;
+    margin-top: 30px;
   }
   &_price-value {
     font-size: 6rem;

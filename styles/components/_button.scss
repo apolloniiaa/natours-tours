@@ -12,11 +12,12 @@
     border: none;
     cursor: pointer;
     font-size: 1.5rem;
+    color: #82ffdf;
   }
 
   &:hover {
     transform: translateY(-3px);
-    box-shadow: 0 1rem 2rem grey;
+    box-shadow: 0 1rem 2rem rgb(99, 255, 234);
 
     &::after {
       transform: scaleX(1.4) scaleY(1.6);
@@ -32,8 +33,8 @@
   }
 
   &--white {
-    background-color: rgba(255, 255, 255, 0.034);
     color: rgb(0, 24, 18);
+    margin-bottom: 20px;
 
     &::after {
       background-color: rgba(255, 255, 255, 0.062);
@@ -41,8 +42,8 @@
   }
 
   &--green {
-    background-color: rgba(255, 255, 255, 0.171);
-    color: rgb(4, 165, 114);
+    color: #82ffdf;
+    background: #110b2c;
 
     &::after {
       background-color: rgb(255, 255, 255);
@@ -74,23 +75,21 @@
 .btn-text {
   &:link,
   &:visited {
-    color: rgba(145, 216, 159, 0.982);
+    color: #82ffdf;
     display: inline-block;
     text-decoration: none;
-    border-bottom: 1.5px dotted rgb(247, 247, 247);
+    border-bottom: 1.5px dotted rgb(40, 255, 219);
     padding: 3px;
     transition: all 0.2s;
   }
 
   &:hover {
-    background-color: rgba(21, 227, 62, 0.29);
-    color: white;
-    box-shadow: 0 1rem 2rem rgba(rgb(255, 255, 255), 0.15);
+    box-shadow: 0 1rem 2rem rgba(rgb(79, 255, 181), 0.15);
     transform: translateY(-2px);
   }
 
   &:active {
-    box-shadow: 0 0.5rem 1rem rgba(rgb(255, 255, 255), 0.15);
+    box-shadow: 0 0.5rem 1rem rgba(rgb(2, 1, 29), 0.15);
     transform: translateY(0);
   }
 }

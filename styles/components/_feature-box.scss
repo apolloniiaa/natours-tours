@@ -11,13 +11,9 @@
     font-size: 6rem;
     margin-bottom: 0.5rem;
     display: inline-block;
-    background-image: linear-gradient(
-      to right,
-      $primary-color-light,
-      $primary-color-dark
-    );
+
     -webkit-background-clip: text;
-    color: transparent;
+    color: #82ffdf;
   }
   &:hover {
     transform: translateY(-1.5rem) scale(1.03);

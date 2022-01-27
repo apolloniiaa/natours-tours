@@ -3,7 +3,7 @@
   &_photo {
     width: 55%;
     box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.372);
-    border-radius: 2px;
+    border-radius: 1px;
     position: absolute;
     z-index: 10;
     transition: all 0.2s;
@@ -22,9 +22,9 @@
       top: 10rem;
     }
     &:hover {
-      outline: 0.5rem solid rgba(99, 142, 35, 0.591);
+      outline: 0.1rem solid rgb(112, 255, 196);
       transform: scla(-5rem);
-      box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.564);
+      box-shadow: 0 2.5rem 4rem rgba(2, 0, 15, 0.904);
       z-index: 20;
     }
   }
